@@ -1,53 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Internship-login</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-  </head>
-  <body>
-    <div class="main">
-      <div class="Box1">
-        <h2><mark>Lo</mark>gin</h2>
-        <div class="mail">
-              <i class="bi bi-envelope-fill"></i><input type="text" placeholder= "    Enter your Email" />
-        </div>
+</head>
 
-      <i class="bi bi-lock-fill"></i><input
-          class="input1"
-          type="text"
-          placeholder="   Enter your password"
-        /><br />
-        <a class="A1" href="#">Forgot password?</a>
+<body>
+    <div class="container">
+        <div class="left">
+            <p class="login" ><span class="logborder" >Lo</span>gin</p>
+            <div class="inone">
+                <form>
 
-        <button class="col">Login</button>
-        <p class="aji">Don't have an account?<a class="line" href="#">Signup now</a></p>
-      </div>
-      <div class="Box2">
-        <div class="AAA">
-          <h3>
-            Every new friend is a<br />
-            new adventure.
-          </h3>
-          <p>let's get connected</p>
+                    <i class="bi bi-envelope-fill"></i>
+                <input class="emailin" type="email" placeholder="     Enter your email">
+            </div>
+
+            <div class="intwo">
+                <i class="bi bi-lock-fill"></i>
+                <input class="passin" type="password" placeholder="     Enter your password" >
+            </div>
+
+
+            <a class="forgot" href="">Forgot password?</a>
+            <button class="login-btn">Login</button>
+                </form>
+
+            <p class="signup">Don't have an account? <a href="">Signup now</a></p>
         </div>
-      </div>
+        <div class="right">
+
+            <p class="boldpara">Every new friend is a<br> new adventure</p>
+            <p class="paratext">let's get connected</p>
+        </div>
     </div>
-  </body>
+
+</body>
 </html>
-                
-
-
-
-
-
-
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/AJITHddd/Login.git
-git push -u origin main
